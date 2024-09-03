@@ -6,14 +6,13 @@ class Vehicle{
     }
 }
 
-// without this method.. of motor object is called
+// without these  methods.. and object is called
 // and use the method Horn()..
 // the default horn will be "Beep Beep Beep"
 // but since there are Horn/s declared..
 // "Beep Beep Beep" got overwritten
 
 class Motor extends Vehicle{
-    
     public void Horn(){ 
         System.out.println("Siiitt Siiiit Siiit"); // Motor horn new sound
     }
